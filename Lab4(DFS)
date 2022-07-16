@@ -41,9 +41,9 @@ if(reach[i])
 count++;
 }
 if(count==n)
-printf("\n Graph is connected");
+printf("\n Graph is connected\n");
 else
-printf("\n Graph is not connected");
-printf("Time is %fs",difftime(end,start));
+printf("\n Graph is not connected\n");
+printf("Time is %f",difftime(end,start));
 getch();
 }
