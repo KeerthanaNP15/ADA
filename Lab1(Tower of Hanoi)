@@ -26,7 +26,7 @@ int main()
     scanf("%d",&n);
 start=time(NULL);
 
-    tower(n,'a','b','c');
+    tower(n,'a','c','b');
     //delay();
     end=time(NULL);
     printf("\n time taken:%f", difftime(end,start));
