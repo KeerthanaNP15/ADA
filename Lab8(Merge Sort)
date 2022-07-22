@@ -20,7 +20,6 @@ void merging(int low, int mid, int high)
  b[i] = a[l2++];
  }
 while(l1 <= mid)
-32
  b[i++] = a[l1++];
  while(l2 <= high)
  b[i++] = a[l2++];
@@ -30,7 +29,6 @@ void sort(int low, int high) {
  int mid;
  delay();
  if(low < high)
- 
 {
  mid = (low + high) / 2;
  sort(low, mid);
@@ -39,10 +37,8 @@ void sort(int low, int high) {
  
 }
  else
- 
 {
  return;
- 
 }
 }
 int main() {
