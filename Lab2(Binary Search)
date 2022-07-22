@@ -36,7 +36,6 @@ int main()
  key=arr[n-1];
  l=0;
  h=n-1;
-8
  i=0;
  start=clock();
  flag=binary(l,h,arr,key);
